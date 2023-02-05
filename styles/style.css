@@ -1,0 +1,264 @@
+html {
+	height: 100%;
+	background-image: url("Nature-Green-HD-Wallpaper.jpg");
+	background-size: cover;
+	background-position: fixed;
+	background-repeat: no-repeat;
+	margin: 0;
+	height: 100vh;
+background-attachment: fixed;
+font-family: "Segoe UI", Roboto;
+
+}
+	
+body {
+	margin:0;
+	
+}
+
+
+.carré{
+
+background-color:#dde1e7;
+width: 47%;
+align-items: center;
+background-size: cover;
+height: 100vh;
+margin-bottom: 0px;
+display: inline-block;
+border-right: 3px solid black;
+
+}
+
+h1 {
+	
+	text-align: center;
+	border-bottom: solid 3px black;
+	font-family: "Segoe UI", Roboto;
+	font-size: 80px;
+	color:white;
+	padding-top : 2%;
+    text-shadow: 2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, -2px 0 0 black, 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black;
+
+}
+.titre{
+	text-align: center;
+    font-family: "Segoe UI", Roboto;
+    font-size: 40px;
+	margin: 0;
+	position: relative;
+	
+}
+
+#prenom{
+	
+	
+	font-family: "Segoe UI", Roboto;
+	font-size: 20px;
+	color:black;
+	text-align: center;
+	
+}
+
+#logo{
+	position: absolute;
+	width: 95px;
+	height:95px;
+	top: 15px;
+	left: 15px;
+	border-radius: 10px;
+	border : solid 3.5px black;
+}
+#contentlogo{
+	display: inline-block;
+	width: 100%;
+}
+
+
+.nav ul {
+  list-style: none;
+  border : groove white;
+  text-align: center;
+  padding: 0;
+  margin: 10px;
+  
+}
+.nav  {
+	
+	bottom: 10px;
+	width :47%;
+	position: absolute;
+}
+
+.nav li {
+  font-family: "Segoe UI", Roboto;
+  font-size: 0.8em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px ;
+  display: inline;
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+
+}
+ 
+.nav a {
+  text-decoration: none;
+  color:black;
+  transition: .3s background-color;
+
+
+}
+ 
+.nav a:hover {
+   color: green;
+    border-bottom: 3px solid green;
+}
+ 
+.nav a.active {
+  
+  color: blue;
+  cursor: default;
+}
+
+.carretexte {
+
+background-color:#dde1e7;
+width: 50%;
+text-align: center;
+background-size: cover;
+height: 100vh;
+margin-left: 24%;
+position: fixed;
+top:0;
+display: block;
+border-right: 3px solid black;
+border-left: 3px solid black;
+z-index: 0;
+
+}
+
+.content {
+background-color:#dde1e7;
+width: 50%;
+text-align: center;
+background-size: cover;
+height: 100vh;
+margin-left: 24%;
+display: block;
+position: relative;
+border-right: 3px solid black;
+border-left: 3px solid black;
+z-index:10;
+}
+
+.nav1 ul {
+  list-style: none;
+  border : groove white;
+  text-align: center;
+  padding: 0;
+  margin: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+
+  
+}
+.nav1  {
+	
+margin-left: auto;
+margin-right: auto;
+	width :47%;
+	position: relative;
+	padding-top: 50px;
+	
+	
+}
+.nav1 li {
+  font-family: "Segoe UI", Roboto;
+  font-size: 0.8em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px ;
+  display: inline;
+  
+
+}
+ 
+.nav1 a {
+  text-decoration: none;
+  color:black;
+  transition: .3s background-color;
+
+
+}
+ 
+.nav1 a:hover {
+   color: green;
+    border-bottom: 3px solid green;
+}
+ 
+.nav1 a.active {
+  
+  color: blue;
+  cursor: default;
+}
+
+.texte {
+
+
+	font-size: 20px;
+	margin-left: 5%;
+	margin-right:5%;
+}
+
+.logoentreprise {
+   
+    width: 150px;
+	height:150px;
+	margin-left: 20%;
+
+	
+}
+
+
+.goupementlogos {
+
+	display : inline-block;
+	width: 100%;
+	
+}
+
+.tab {
+
+
+border : solid 2px black;
+width: 550px;
+
+
+	}
+
+.pes {
+
+	border : solid 2px black;
+width: 600px;
+
+}
+
+.liens ul{
+
+
+	list-style: none;
+	text-decoration: none;
+    font-size: 15px;
+}
+
+.liens {
+
+	text-align: left;
+
+}
+
+.credits {
+
+	text-align: center;
+}
